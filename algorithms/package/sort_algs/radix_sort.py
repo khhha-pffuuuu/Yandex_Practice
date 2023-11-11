@@ -25,9 +25,9 @@ def radix_sort(a: list):
             buckets[digit].append(elem)
 
         a_index = 0
-        for j in range(len(buckets)):
-            for k in range(len(buckets[j])):
-                sorted_a[a_index] = buckets[j][k]
+        for bucket in buckets:
+            for elem in bucket:
+                sorted_a[a_index] = elem
                 a_index += 1
 
         buckets = [[] for _ in range(10)]
