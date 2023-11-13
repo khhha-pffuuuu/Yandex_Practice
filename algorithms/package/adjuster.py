@@ -12,5 +12,5 @@ from .string_algs.string_base import str_base
 from .string_algs.z_function import search_substrings
 
 # Поиск кратчайшего пути (алгоритм Дейкстры)
-from .shortest_path.dijkstra import base_dijkstra
+from .shortest_path.dijkstra import dijkstra as b_dijkstra
 from .shortest_path.fast_dijkstra import dijkstra
