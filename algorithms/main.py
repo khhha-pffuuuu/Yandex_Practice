@@ -1,11 +1,9 @@
 import package.adjuster as alg
-from package.helpers import is_sorted
-
-from random import randint as rand
+import package.helpers as hp
 
 
 def main():
-    pass
+    pass  # Здесь можем использовать функции, вызывая файлы hp. или alg.
 
 
 if __name__ == '__main__':

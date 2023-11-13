@@ -1,3 +1,5 @@
+# --Сборщик алгоритмов-- #
+
 # Алгоритмы сортировки
 from .sort_algs.insertion_sort import insertion_sort
 from .sort_algs.merge_sort import merge_sort
@@ -9,4 +11,6 @@ from .string_algs.equality_substrings import are_equals
 from .string_algs.string_base import str_base
 from .string_algs.z_function import search_substrings
 
-# --Сборщик алгоритмов-- #
+# Поиск кратчайшего пути (алгоритм Дейкстры)
+from .shortest_path.dijkstra import base_dijkstra
+from .shortest_path.fast_dijkstra import dijkstra
