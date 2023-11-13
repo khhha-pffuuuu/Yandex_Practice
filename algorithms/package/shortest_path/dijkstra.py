@@ -18,13 +18,7 @@ def dijkstra(graph, s, f):
         visited[u] = True
 
         # Проводим линейный поиск непосещённой вершины с минимальным весом
-        min_v, min_weight = s, INF
-        for v in range(n):
-            if not visited[v] and min_weight > dist[v]:
-                min_v = v
-                min_weight = dist[v]
-
-        u = min_v
+        u = min(range(n), key=lambda vert: dist[vert] if not visited[vert] else INF)
 
     res = dist[f] if dist[f] < INF else -1  # Если пути не существует, то выводим -1
     return res
