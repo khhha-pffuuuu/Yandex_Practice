@@ -1,6 +1,6 @@
 import heapq
 
-INF = 10 ** 18
+INF = 10 ** 9 + 7
 
 
 class Node:

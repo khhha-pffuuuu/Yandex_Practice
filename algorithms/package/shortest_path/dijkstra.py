@@ -1,4 +1,4 @@
-INF = 10 ** 18
+INF = 10 ** 9 + 7
 
 
 def dijkstra(graph, s, f):
